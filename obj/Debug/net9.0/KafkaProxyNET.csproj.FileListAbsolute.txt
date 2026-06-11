@@ -1,0 +1,15 @@
+C:\Users\dmitry\Desktop\KafkaProxyNET\bin\Debug\net9.0\KafkaProxyNET.exe
+C:\Users\dmitry\Desktop\KafkaProxyNET\bin\Debug\net9.0\KafkaProxyNET.deps.json
+C:\Users\dmitry\Desktop\KafkaProxyNET\bin\Debug\net9.0\KafkaProxyNET.runtimeconfig.json
+C:\Users\dmitry\Desktop\KafkaProxyNET\bin\Debug\net9.0\KafkaProxyNET.dll
+C:\Users\dmitry\Desktop\KafkaProxyNET\bin\Debug\net9.0\KafkaProxyNET.pdb
+C:\Users\dmitry\Desktop\KafkaProxyNET\obj\Debug\net9.0\KafkaProxyNET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmitry\Desktop\KafkaProxyNET\obj\Debug\net9.0\KafkaProxyNET.AssemblyInfoInputs.cache
+C:\Users\dmitry\Desktop\KafkaProxyNET\obj\Debug\net9.0\KafkaProxyNET.AssemblyInfo.cs
+C:\Users\dmitry\Desktop\KafkaProxyNET\obj\Debug\net9.0\KafkaProxyNET.csproj.CoreCompileInputs.cache
+C:\Users\dmitry\Desktop\KafkaProxyNET\obj\Debug\net9.0\KafkaProxyNET.sourcelink.json
+C:\Users\dmitry\Desktop\KafkaProxyNET\obj\Debug\net9.0\KafkaProxyNET.dll
+C:\Users\dmitry\Desktop\KafkaProxyNET\obj\Debug\net9.0\refint\KafkaProxyNET.dll
+C:\Users\dmitry\Desktop\KafkaProxyNET\obj\Debug\net9.0\KafkaProxyNET.pdb
+C:\Users\dmitry\Desktop\KafkaProxyNET\obj\Debug\net9.0\KafkaProxyNET.genruntimeconfig.cache
+C:\Users\dmitry\Desktop\KafkaProxyNET\obj\Debug\net9.0\ref\KafkaProxyNET.dll
