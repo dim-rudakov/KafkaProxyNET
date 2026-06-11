@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KafkaProxyNET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b548e1a0ebf5e429f9c3ac08067f9791dc6b19d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92f1943f0dbe87754372f649e2a8ac30beceff7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("KafkaProxyNET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KafkaProxyNET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
