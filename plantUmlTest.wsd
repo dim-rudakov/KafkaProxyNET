@@ -1,0 +1,48 @@
+@startuml test
+
+participant "Kafka" as kafka
+
+box "Proxy .NET (microservice)"
+    participant "Proxy API + Worker" as proxy
+    database "Очередь (БД)" as queue
+end box
+
+participant "Документооборот" as do
+
+== Накопление сообщений в прокси ==
+loop Kafka polling
+    alt Kafka доступна
+        proxy -> kafka: poll(timeout)
+        kafka --> proxy: message batch
+
+        opt Есть сообщения
+            proxy -> queue: Enqueue(messages)
+        end
+    else Kafka недоступна / timeout
+        proxy -> proxy: log error / retry later
+    end
+end
+
+== Получение сообщений ДО ==
+alt БД доступна
+    do -> proxy: GET /messages
+    proxy -> queue: SELECT messages
+    queue --> proxy: messages
+    proxy --> do: messages
+else БД недоступна / timeout
+    do -> proxy: GET /messages
+    proxy --> do: 503 Service Unavailable
+end
+
+== Отправка сообщения ==
+alt Kafka доступна
+    do -> proxy: POST /messages
+    proxy -> kafka: send(message)
+    kafka --> proxy: ack
+    proxy --> do: 200 OK
+else Kafka недоступна / timeout
+    do -> proxy: POST /messages
+    proxy --> do: 503 Service Unavailable
+end
+
+@enduml
