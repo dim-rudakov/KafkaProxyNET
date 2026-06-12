@@ -44,6 +44,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.14.2, )"
+            },
             "Microsoft.Extensions.Hosting.WindowsServices": {
               "target": "Package",
               "version": "[10.0.9, )"
